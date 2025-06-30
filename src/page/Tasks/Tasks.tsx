@@ -39,7 +39,6 @@ function Tasks() {
 
             <div className="text-sm text-gray-500 mb-3">
               <p>Due: {task.dueDate}</p>
-              <p>Tags: {task.tags.join(", ")}</p>
             </div>
 
             <button className="text-sm px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600">
