@@ -5,7 +5,7 @@ export interface ITask {
   completed: boolean;
   createdAt: string; // ISO string
   updatedAt: string; // ISO string
-  priority: 'low' | 'medium' | 'high'; // strict priority options
+  priority: 'low' | 'medium' | 'high'; 
   tags: string[];
   dueDate: string; 
   isCompleted : boolean ;
